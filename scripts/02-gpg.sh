@@ -1,6 +1,11 @@
 # instructions mostly from https://github.com/drduh/YubiKey-Guide
 brew update && brew install -q gnupg yubikey-personalization ykman pinentry-mac wget
 
+# set gnupg folder permissions
+chown -R $(whoami) $ZDOTDIR/gnupg/
+find $ZDOTDIR/gnupg -type f -exec chmod 600 {} \;
+find $ZDOTDIR/gnupg -type d -exec chmod 700 {} \;
+
 # default key
 KEYID=D776F5702D7E83AB
 
