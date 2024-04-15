@@ -9,6 +9,8 @@
 !.zprofile
 !.zshrc
 
+!setup.sh
+
 !gnupg/
 gnupg/*
 !gnupg/gpgsetup.sh
