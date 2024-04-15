@@ -3,11 +3,19 @@
 
 # But not these files...
 !.gitignore
+!README.md
+
+!.zshenv
 !.zprofile
 !.zshrc
 
-!.gnupg/
-.gnupg/*
-!.gnupg/gpgsetup.sh
-!.gnupg/gpg-agent.conf
-!.gnupg/gpg.conf
+!gnupg/
+gnupg/*
+!gnupg/gpgsetup.sh
+!gnupg/gpg-agent.conf
+!gnupg/gpg.conf
+
+!iTerm/
+
+!nvim/
+

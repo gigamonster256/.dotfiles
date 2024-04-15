@@ -1,0 +1,3 @@
+ZDOTDIR=$HOME/.dotfiles
+export GNUPGHOME=$ZDOTDIR/gnupg
+export XDG_CONFIG_HOME=$ZDOTDIR
