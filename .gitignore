@@ -10,6 +10,7 @@
 !.zshrc
 
 !setup.sh
+!finalize.sh
 
 !gnupg/
 gnupg/*
