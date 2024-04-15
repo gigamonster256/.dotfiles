@@ -1,7 +1,13 @@
 # Ignore everything
-*
+/*
 
 # But not these files...
 !.gitignore
 !.zprofile
 !.zshrc
+
+!.gnupg/
+.gnupg/*
+!.gnupg/gpgsetup.sh
+!.gnupg/gpg-agent.conf
+!.gnupg/gpg.conf
