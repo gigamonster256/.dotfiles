@@ -26,4 +26,5 @@ fi
 # disable any analytics
 /opt/homebrew/bin/brew analytics off
 
-$ZDOTDIR/scripts/add_plugin.sh brew > /dev/null
+# enable brew omz plugin
+zsh -i -c "omz plugin enable brew"

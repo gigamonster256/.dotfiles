@@ -33,5 +33,5 @@ if ! grep -q "zsh_aliases" $ZDOTDIR/.zshrc.after; then
   echo "source $ZDOTDIR/zsh_aliases" >> $ZDOTDIR/.zshrc.after
 fi
 
-
-$ZDOTDIR/scripts/add_plugin.sh macos > /dev/null
+# add macos plugin
+zsh -i -c "omz plugin enable macos"
