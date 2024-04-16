@@ -23,4 +23,7 @@ if ! grep -q "brew" $ZDOTDIR/.zshrc.before; then
   echo 'FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"' >> $ZDOTDIR/.zshrc.before
 fi
 
+# disable any analytics
+/opt/homebrew/bin/brew analytics off
+
 $ZDOTDIR/scripts/add_plugin.sh brew > /dev/null
