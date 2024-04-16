@@ -8,4 +8,4 @@ fi
 brew update
 brew tap homebrew/cask-fonts
 brew update
-brew install -q font-hack-nerd-font
+brew install -q font-fira-code-nerd-font
