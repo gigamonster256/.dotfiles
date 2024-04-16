@@ -28,4 +28,10 @@ if ! grep -q ".zshrc.after" $ZDOTDIR/.zshrc; then
   echo "source $ZDOTDIR/.zshrc.after" >> $ZDOTDIR/.zshrc
 fi
 
+# add zsh aliases to after zshrc file
+if ! grep -q "zsh_aliases" $ZDOTDIR/.zshrc.after; then
+  echo "source $ZDOTDIR/zsh_aliases" >> $ZDOTDIR/.zshrc.after
+fi
+
+
 $ZDOTDIR/scripts/add_plugin.sh macos > /dev/null
